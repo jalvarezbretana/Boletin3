@@ -40,7 +40,7 @@ public class Consumo {
     }
 
     public float consumoEuros() {
-        float consumoE = km / pGas * 100;
+        float consumoE = pGas / km * 100;
         return consumoE;
     }
 
