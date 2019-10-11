@@ -16,8 +16,9 @@ public class Consumo {
     private float vMed;
     private float pGas;
 
-    public Consumo(float kilm, float lit, float med, float gas) {
-        km = kilm;
+    public Consumo(float kms, float lit, float med, float gas) {
+
+        km = kms;
         litros = lit;
         vMed = med;
         pGas = gas;
@@ -43,8 +44,8 @@ public class Consumo {
         return consumoE;
     }
 
-    public void setKms(float kilm) {
-        km = kilm;
+    public void setKms(float kms) {
+        km = kms;
 
     }
 
@@ -60,9 +61,9 @@ public class Consumo {
         pGas = gas;
     }
 
-    public float getVMed(){
+    public float getVMed() {
         return vMed;
-        
+
     }
 
 }
